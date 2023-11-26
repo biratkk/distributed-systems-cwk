@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "data",
+      "type": "sqlTrigger",
+      "direction": "in",
+      "tableName": "Sensor",
+      "connectionStringSetting": "SqlConnectionString"
+    }
+  ]
+}
